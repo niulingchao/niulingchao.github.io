@@ -1,0 +1,87 @@
+@charset "utf-8";
+@import "./list.css";
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+.demo-top {
+  width: 100%;
+  height: 100%;
+  background: #007AFF;
+}
+.demo-top header {
+  height: 7%;
+  text-align: center;
+  padding-top: 2%;
+  font-size: 1.3rem;
+  background: #eee;
+}
+.demo-top section {
+  height: 82.9%;
+  background: #fff;
+  overflow: hidden;
+}
+.demo-top section .section-nav {
+  height: 20%;
+  width: 100%;
+}
+.demo-top section .section-nav:nth-child(1) {
+  border-top: 0.01rem solid #eee;
+}
+.demo-top section .section-nav i:nth-child(1) {
+  color: #007AFF;
+}
+.demo-top section .section-nav .navList {
+  float: left;
+  width: 25%;
+  height: 100%;
+  margin-top: 1%;
+  border-bottom: 1px solid #eee;
+  border-right: 1px solid #eee;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: -webkit-box;
+  -webkit-box-align: center;
+  -webkit-box-pack: center;
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  -ms-box-orient: vertical;
+  box-orient: vertical;
+  font-size: 0.14rem;
+}
+.demo-top section .section-nav .navList i.iconfont {
+  font-size: 2rem;
+}
+.demo-top .boot {
+  height: 9%;
+  background: #eee;
+}
+.demo-top .boot .section-nav {
+  height: 33%;
+  width: 100%;
+}
+.demo-top .boot .section-nav:nth-child(1) {
+  border-top: 0.01rem solid #eee;
+}
+.demo-top .boot .section-nav .navList {
+  float: left;
+  width: 25%;
+  height: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: -webkit-box;
+  -webkit-box-align: center;
+  -webkit-box-pack: center;
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  -ms-box-orient: vertical;
+  box-orient: vertical;
+  font-size: 0.1rem;
+}
+.demo-top .boot .section-nav .navList i.iconfont {
+  font-size: 1rem;
+}
+/*# sourceMappingURL=footer.css.map */

@@ -1,0 +1,87 @@
+@charset "utf-8";
+@import "./list.css";
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+.demo-top {
+    width: 100%;
+    height: 100%;
+    background: #007AFF;
+    header {
+        height: 7%;
+        text-align: center;
+        padding-top: 2%;
+        font-size: 1.3rem;
+        background: #eee;
+    }
+    section {
+        height: 82.9%;
+        background: #fff;
+        overflow: hidden;
+        .section-nav {
+            height: 20%;
+            width: 100%;
+            &:nth-child(1) {
+                border-top: 0.01rem solid #eee;
+            }
+            i:nth-child(1) {
+                color: #007AFF;
+            }
+            .navList {
+                float: left;
+                width: 25%;
+                height: 100%;
+                margin-top: 1%;
+                border-bottom: 1px solid #eee;
+                border-right: 1px solid #eee;
+                -webkit-box-sizing: border-box;
+                -moz-box-sizing: border-box;
+                box-sizing: border-box;
+                display: -webkit-box;
+                -webkit-box-align: center;
+                -webkit-box-pack: center;
+                -webkit-box-orient: vertical;
+                -moz-box-orient: vertical;
+                -ms-box-orient: vertical;
+                box-orient: vertical;
+                font-size: 0.14rem;
+                i.iconfont {
+                    font-size: 2rem;
+                }
+            }
+        }
+    }
+    .boot {
+        height: 9%;
+        background: #eee;
+        .section-nav {
+            height: 33%;
+            width: 100%;
+            &:nth-child(1) {
+                border-top: 0.01rem solid #eee;
+            }
+            .navList {
+                float: left;
+                width: 25%;
+                height: 100%;
+                -webkit-box-sizing: border-box;
+                -moz-box-sizing: border-box;
+                box-sizing: border-box;
+                display: -webkit-box;
+             
+                -webkit-box-align: center;
+                -webkit-box-pack: center;
+                -webkit-box-orient: vertical;
+                -moz-box-orient: vertical;
+                -ms-box-orient: vertical;
+                box-orient: vertical;
+                font-size: 0.1rem;
+                i.iconfont {
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+}

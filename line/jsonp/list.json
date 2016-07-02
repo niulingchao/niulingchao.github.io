@@ -1,0 +1,22 @@
+{
+	"type":"get",
+    "data": [
+        {
+            "seq": "1",
+            "image_url": "http://p1.qhimg.com/t0159329c97c5dc79db.png",
+            "push_content": "小胖每周红包",
+            "time_start": "2016-06-20 19:33:04",
+            "time_stop": "2016-06-27 23:59:59",
+            "repeat_cycle": null,
+            "min_version": "",
+            "image_md5": "18005324a48301a788bd4f4508804577",
+            "button_action": "4",
+            "dist_address": "",
+            "pt_lt": "0,0",
+            "pt_rb": "0,0",
+            "logo_bg_left": "http://p0.qhimg.com/t01216955f681a0484c.png",
+            "logo_bg_right": "http://p4.qhimg.com/t01915d2d1a68360d53.png",
+            "pop_exclude": ""
+        }
+    ]
+}
